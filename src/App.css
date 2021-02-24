@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .App {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .sidenav {
+    width:  25vw;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+    color: honeydew;
+    font-size: 1.2rem;
+    padding: 3em;
+  }
+  .NavItem, 
+  .contents, 
+  .sidenav {
+    border: 1px solid black
+  }
+  
+  .contents {
+    flex: 1;
+  }
+  
+  .NavItem {
+    margin: 1.5rem auto;
+    text-align: center;
+  }
+  
+  .NavItem-text {
+    text-decoration: none;
+    color:honeydew
+  }
+  
+  .NavItem:hover, .active{
+    font-weight: bolder;
+  }
+
+  .active {
+    font-weight: bold;
+  }
+  
+  .display-picture{
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    width: 10rem;
+  }
+  
+  .home{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .typing-effect {
+    margin: 5rem;
+    font-size: 1em;
+  }
+
+  .social a {
+    margin: 1rem;
+    font-size: 2rem;
+    color: grey;
+  }
+
+  .about {
+    margin: 2rem;
+  }
+
+  .education {
+    margin: 2rem;
+  }
+
+  .wildcard {
+    /* border: 1px; */
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .wildcard:hover {
+    box-shadow: 10px 10px cadetblue;
+  }
+
+  .skills {
+    margin: 2rem;
+  }
+
+  .skills li{
+    list-style: none;
+    padding: 0.5rem;
+  }
+
+  .contact {
+    margin:2rem;
+  }
+
+  .contact .h3 {
+    padding:2rem;
+    
+  }
